@@ -35,3 +35,9 @@ def assign_rooms(speakers)
  
  room_assignments
 end
+
+# method named 'printer'
+# method will output the results of the 'batch_badge_creator' and 'assign_rooms' methods
+
+def printer
+end
