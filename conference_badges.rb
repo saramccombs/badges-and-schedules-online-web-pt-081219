@@ -18,7 +18,7 @@ def batch_badge_creator(speakers)
     speaker_badges << badge_maker(speaker_name)
   end
   
-  speaker_badges
+  puts speaker_badges
 end
 
 # method named 'assign_rooms'
@@ -40,7 +40,7 @@ end
 # method will output the results of the 'batch_badge_creator' and 'assign_rooms' methods
 
 def printer(speakers)
-  puts batch_badge_creator(speakers)
-  puts assign_rooms(speakers)
+  batch_badge_creator(speakers)
+  assign_rooms(speakers)
  
 end
