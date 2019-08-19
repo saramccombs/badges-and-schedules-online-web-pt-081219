@@ -40,7 +40,7 @@ end
 # method will output the results of the 'batch_badge_creator' and 'assign_rooms' methods
 
 def printer(speakers)
-  batch_badge_creator(speakers)
+  puts batch_badge_creator(speakers)
   assign_rooms(speakers)
  
 end
