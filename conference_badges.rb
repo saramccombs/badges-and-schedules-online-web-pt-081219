@@ -40,6 +40,5 @@ end
 # method will output the results of the 'batch_badge_creator' and 'assign_rooms' methods
 
 def printer
-  speaker_badges
-  room_assignments
+ 
 end
