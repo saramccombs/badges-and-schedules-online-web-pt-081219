@@ -18,7 +18,7 @@ def batch_badge_creator(speakers)
     speaker_badges << badge_maker(speaker_name)
   end
   
-  yield speaker_badges
+  speaker_badges
 end
 
 # method named 'assign_rooms'
